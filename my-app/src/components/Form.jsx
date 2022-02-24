@@ -50,7 +50,7 @@ function Form() {
     <form>
       <Center bg='#17A7AD'>
         <Stack mb={5}>
-          <Box bg='#E0BE65'  minWidth={['380', '500', '600']} borderRadius='20' p={5}>
+          <Box bg='#E0BE65'  Width={['380', '500', '600']} borderRadius='20' p={5}>
             {isSubmitted ? (
               <RandomPerson person={randomPerson} />
             ) : (
