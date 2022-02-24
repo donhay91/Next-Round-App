@@ -51,7 +51,7 @@ function Form(){
     
     return <form>
             <Center bg="#17A7AD">
-                <Stack maxW={600} mb={5}>
+                <Stack minW={510} mb={5}>
                 <Box bg="#E0BE65" w={440} borderRadius="20" p={5}>
                 {isSubmitted ? <RandomPerson person={randomPerson}/> : 
                 <FormControl>
