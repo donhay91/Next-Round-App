@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://donhay91.github.io/Next-Round-App.git",
+  "homepage": "https://donhay91.github..git",
   "dependencies": {
     "@chakra-ui/react": "^1.8.3",
     "@emotion/react": "^11",
@@ -25,7 +25,7 @@
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
