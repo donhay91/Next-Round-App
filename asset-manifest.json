@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Next-Round-App/static/css/main.6ee644d2.css",
-    "main.js": "/Next-Round-App/static/js/main.b055e658.js",
+    "main.js": "/Next-Round-App/static/js/main.5befc5a6.js",
     "static/media/rocknroll-one-all-400-normal.woff": "/Next-Round-App/static/media/rocknroll-one-all-400-normal.372f4137d5b542341430.woff",
     "static/media/beer-mug.png": "/Next-Round-App/static/media/beer-mug.3c726238b90bc8b32a9c.png",
     "static/media/rock-salt-all-400-normal.woff": "/Next-Round-App/static/media/rock-salt-all-400-normal.36411ba565f13e9af5cd.woff",
@@ -128,10 +128,10 @@
     "static/media/rocknroll-one-2-400-normal.woff2": "/Next-Round-App/static/media/rocknroll-one-2-400-normal.9c30482120fdc7b090f1.woff2",
     "index.html": "/Next-Round-App/index.html",
     "main.6ee644d2.css.map": "/Next-Round-App/static/css/main.6ee644d2.css.map",
-    "main.b055e658.js.map": "/Next-Round-App/static/js/main.b055e658.js.map"
+    "main.5befc5a6.js.map": "/Next-Round-App/static/js/main.5befc5a6.js.map"
   },
   "entrypoints": [
     "static/css/main.6ee644d2.css",
-    "static/js/main.b055e658.js"
+    "static/js/main.5befc5a6.js"
   ]
 }
