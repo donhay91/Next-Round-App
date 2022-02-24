@@ -6,7 +6,7 @@ function Footer(){
     const curentYear = new Date().getFullYear();
 
     return <Center bg="#17A7AD" h="190">
-                <VStack>
+                <VStack minWidth={['300', '400', '500']}>
                     <Spacer></Spacer>
                     <Heading color="#F8DFBD" size="sm">Built with React and Chakra UI</Heading>
                     <Text color="#F8DFBD">By</Text>
