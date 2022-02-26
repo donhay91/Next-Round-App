@@ -6,11 +6,11 @@ function Footer(){
     const curentYear = new Date().getFullYear();
 
     return <Container bg="#17A7AD" maxW="full" centerContent>
-                <Flex h="35.5vh" py={5} >
+                <Flex h="full" py={5} >
                     <VStack w="full" h="full" alignItems="center">
-                        <Heading color="#F8DFBD" size="sm">Built with React and Chakra UI</Heading>
+                        <Heading color="#F8DFBD" size="xs">Built with React and Chakra UI</Heading>
                         <Text color="#F8DFBD">By</Text>
-                        <Heading color="#F8DFBD" size="sm">Donovan Hay</Heading>
+                        <Heading color="#F8DFBD" size="xs">Donovan Hay</Heading>
                         <Text color="#E0BE65">Copyright © {curentYear}</Text>
                     </VStack>
                 </Flex>

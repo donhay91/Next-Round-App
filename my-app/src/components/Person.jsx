@@ -3,8 +3,8 @@ import { FaTrash } from "react-icons/fa";
 import React from "react";
 
 function Person(props){
-    return <Flex>
-                <Box padding={8}>
+    return <Flex h="full">
+                <Box padding={7}>
                     <ListItem>{props.personName}</ListItem>
                 </Box>
                 <Spacer></Spacer>

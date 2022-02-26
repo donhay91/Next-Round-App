@@ -20,7 +20,7 @@ function InputArea(props){
         setIsExpanded(true);
     }
 
-    return <Box padding={5}>
+    return <Box padding={2} mb={2}>
             <Input onClick={expanded} bg="#F7F7F7" 
                focusBorderColor="#ED1B2E" 
                name="fName"

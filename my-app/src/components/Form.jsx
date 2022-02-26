@@ -1,14 +1,11 @@
 import {
-  Center,
   Container,
   FormControl,
   FormLabel,
-  Stack,
-  Box,
   UnorderedList,
   Divider,
   Button,
-  HStack,
+  Flex,
 } from '@chakra-ui/react';
 import React, { useState } from 'react';
 import Person from './Person';
@@ -46,20 +43,17 @@ function Form() {
     });
   }
 
-  return (
-    <form>
-      <Center bg='#17A7AD'>
-        <Stack mb={5}>
-          <Box bg='#E0BE65'  Width={['380', '500', '600']} borderRadius='20' p={5}>
+  return <Container bg="#17A7AD" maxW="full" centerContent>
+            <Flex py={5} borderRadius={15} bg="#E0BE65" w={{base: "285px", md:"410px"}} p={{base: "2", sm: "3", md: "5"}}>
             {isSubmitted ? (
               <RandomPerson person={randomPerson} />
             ) : (
               <FormControl>
                 <Container centerContent>
-                  <FormLabel htmlFor='name' centerContent color='#17A7AD'>
+                <FormLabel htmlFor='name' color='#17A7AD'>
                     Please Enter Your Names:
-                  </FormLabel>
-                </Container>
+                </FormLabel>
+                </Container> 
                 <InputArea onAdd={addNames} />
                 <Divider></Divider>
                 <UnorderedList>
@@ -74,9 +68,9 @@ function Form() {
                     );
                   })}
                 </UnorderedList>
-                <Divider></Divider>
+
                 <Container centerContent>
-                  <HStack padding={5}>
+                  <Flex py={3}>
                     <Button
                       isDisabled={isEmpty}
                       bg='#17A7AD'
@@ -86,14 +80,11 @@ function Form() {
                     >
                       Submit
                     </Button>
-                  </HStack>
+                    </Flex>
                 </Container>
               </FormControl>
             )}
-          </Box>
-        </Stack>
-      </Center>
-    </form>
-  );
+            </Flex>
+    </Container>
 }
 export default Form;
